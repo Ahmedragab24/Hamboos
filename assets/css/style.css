@@ -843,14 +843,11 @@ body.nav-active {
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 60px;
-  filter: drop-shadow(1px 1px 2px #00000053);
 }
 
 .logo img {
-  width: 140px;
-  height: 50px;
-  filter: drop-shadow(1px 1px 2px black);
-  -webkit-filter: drop-shadow(1px 1px 2px black);
+  width: 150px;
+  height: 70px;
 }
 
 .navbar-list {
@@ -1574,9 +1571,6 @@ body.nav-active {
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
-.features {
-  height: 140vh;
-}
 
 .features .section-title {
   margin-block-end: 40px;
@@ -1984,7 +1978,6 @@ textarea.input-field {
   bottom: 20px;
   right: 20px;
   background-color: var(--gold-crayola);
-  color: var(--green-color);
   font-size: 22px;
   width: 50px;
   height: 50px;
@@ -1998,8 +1991,16 @@ textarea.input-field {
   z-index: 4;
 }
 
+.back-top-btn ion-icon {
+  color: var(--green-color);
+}
+
 .back-top-btn:is(:hover, :focus-visible) {
   background-color: var(--green-color);
+  color: var(--gold-crayola);
+}
+
+.back-top-btn:hover ion-icon {
   color: var(--gold-crayola);
 }
 
@@ -2017,8 +2018,8 @@ textarea.input-field {
 @media (max-width: 575px) {
   /* header */
   .header .logo img {
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 50px;
   }
   /* about */
   .about .abs-img img {
@@ -2479,6 +2480,7 @@ textarea.input-field {
 @media (max-width: 1200px) {
   .navbar {
     background-color: var(--blue-dark-color);
+    height: auto;
   }
 }
 
