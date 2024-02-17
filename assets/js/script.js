@@ -167,7 +167,7 @@ let swiperServices = new Swiper(".grid-list-Services", {
   effect: "card",
   grabCursor: true,
   // centeredSlides: true,
-  slidesPerView: "2",
+  slidesPerView: "4",
   spaceBetween: 32,
   // loop: true,
   autoplay: {
