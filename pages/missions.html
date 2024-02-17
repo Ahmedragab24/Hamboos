@@ -112,9 +112,28 @@
     - #HEADER
   -->
 
-    <header class="header" data-header>
-      <div class="container">
-        <a href="../index.html" class="logo">
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img
+          src="../assets/images/logo.png"
+          width="160"
+          height="50"
+          alt="Grilli - Home"
+        />
+      </a>
+
+      <nav class="navbar" id="menu" data-navbar>
+        <button
+          class="close-btn"
+          id="close-menu"
+          aria-label="close menu"
+          data-nav-toggler
+        >
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
           <img
             src="../assets/images/logo.png"
             width="160"
@@ -123,121 +142,102 @@
           />
         </a>
 
-        <nav class="navbar" id="menu" data-navbar>
-          <button
-            class="close-btn"
-            id="close-menu"
-            aria-label="close menu"
-            data-nav-toggler
-          >
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="../index.html#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
 
-          <a href="../index.html" class="logo">
-            <img
-              src="../assets/images/logo.png"
-              width="160"
-              height="50"
-              alt="Grilli - Home"
-            />
-          </a>
+              <span class="span">Home</span>
+            </a>
+          </li>
 
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a
-                href="../index.html#home"
-                class="navbar-link hover-underline active"
-              >
-                <div class="separator"></div>
+          <li class="navbar-item">
+            <a href="../index.html#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
 
-                <span class="span">Home</span>
-              </a>
-            </li>
+              <span class="span">About</span>
+            </a>
+          </li>
 
-            <li class="navbar-item">
-              <a href="../index.html#about" class="navbar-link hover-underline">
-                <div class="separator"></div>
+          <li class="navbar-item">
+            <a href="../index.html#Services" class="navbar-link hover-underline">
+              <div class="separator"></div>
 
-                <span class="span">About</span>
-              </a>
-            </li>
+              <span class="span">Services</span>
+            </a>
+          </li>
 
-            <li class="navbar-item">
-              <a
-                href="../index.html#Services"
-                class="navbar-link hover-underline"
-              >
-                <div class="separator"></div>
+          <li class="navbar-item">
+            <a href="../index.html#event" class="navbar-link hover-underline">
+              <div class="separator"></div>
 
-                <span class="span">Services</span>
-              </a>
-            </li>
+              <span class="span">Projects</span>
+            </a>
+          </li>
 
-            <li class="navbar-item">
-              <a href="../index.html#event" class="navbar-link hover-underline">
-                <div class="separator"></div>
+          <li class="navbar-item">
+            <a
+              href="../pages/careers.html"
+              class="navbar-link hover-underline"
+            >
+              <div class="separator"></div>
 
-                <span class="span">Projects</span>
-              </a>
-            </li>
+              <span class="span">Careers</span>
+            </a>
+          </li>
 
-            <li class="navbar-item">
-              <a href="./careers.html" class="navbar-link hover-underline">
-                <div class="separator"></div>
+          <li class="navbar-item">
+            <a
+              href="../pages/questions.html"
+              class="navbar-link hover-underline"
+            >
+              <div class="separator"></div>
 
-                <span class="span">Careers</span>
-              </a>
-            </li>
+              <span class="span">Request a Quotation</span>
+            </a>
+          </li>
 
-            <li class="navbar-item">
-              <a href="./questions.html" class="navbar-link hover-underline">
-                <div class="separator"></div>
+          <li class="navbar-item">
+            <a href="../index.html#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
 
-                <span class="span">Request a Quotation</span>
-              </a>
-            </li>
+              <span class="span">Contact Us</span>
+            </a>
+          </li>
 
-            <li class="navbar-item">
-              <a
-                href="../index.html#contact"
-                class="navbar-link hover-underline"
-              >
-                <div class="separator"></div>
+          <li class="navbar-item">
+            <a
+              href="../pages/missions.html"
+              class="navbar-link hover-underline"
+            >
+              <div class="separator"></div>
 
-                <span class="span">Contact Us</span>
-              </a>
-            </li>
+              <span class="span"> Profile</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-            <li class="navbar-item">
-              <a href="./profile.html" class="navbar-link hover-underline">
-                <div class="separator"></div>
+      <a href="../index.html#contact" class="btn btn-secondary">
+        <span class="text text-1">Call Now</span>
 
-                <span class="span"> Profile</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <span class="text text-2" aria-hidden="true">Call Now</span>
+      </a>
 
-        <a href="../index.html#contact" class="btn btn-secondary">
-          <span class="text text-1">Call Now</span>
+      <button
+        class="nav-open-btn"
+        id="nav-toggle"
+        aria-label="open menu"
+        data-nav-toggler
+      >
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
 
-          <span class="text text-2" aria-hidden="true">Call Now</span>
-        </a>
-
-        <button
-          class="nav-open-btn"
-          id="nav-toggle"
-          aria-label="open menu"
-          data-nav-toggler
-        >
-          <span class="line line-1"></span>
-          <span class="line line-2"></span>
-          <span class="line line-3"></span>
-        </button>
-
-        <div class="overlay" data-nav-toggler data-overlay></div>
-      </div>
-    </header>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
 
     <main>
       <article>
@@ -483,7 +483,7 @@
           <div class="footer-brand has-before has-after">
             <a href="../index.html" class="logo">
               <img
-                src="./assets/images/logo.png"
+                src="../assets/images/logo.png"
                 width="160"
                 height="50"
                 loading="lazy"
