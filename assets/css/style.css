@@ -846,8 +846,8 @@ body.nav-active {
 }
 
 .logo img {
-  width: 180px;
-  height: 80px;
+  width: 130px;
+  height: 100px;
 }
 
 .navbar-list {
@@ -1960,8 +1960,8 @@ textarea.input-field {
 @media (max-width: 575px) {
   /* header */
   .header .logo img {
-    width: 100px;
-    height: 70px;
+    width: 90px;
+    height: 100px;
   }
   /* about */
   .about .abs-img img {
